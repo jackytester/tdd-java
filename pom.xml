@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>tdd-java-newbie</groupId>
-	<artifactId>tdd-java-newbie</artifactId>
+	<groupId>tdd-java</groupId>
+	<artifactId>tdd-java</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>TDD in Java for Newbie</name>
-	<url>https://github.com/roberto-simoni/tdd-java-newbie</url>
+	<name>TDD in Java</name>
+	<url>https://github.com/jackytester/tdd-java</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<javaVersion>1.6</javaVersion>
+		<javaVersion>1.7</javaVersion>
 	</properties>
 
 	<dependencies>
@@ -27,7 +27,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>2.2.1</version>
 				<configuration>
 					<source>${javaVersion}</source>
 					<target>${javaVersion}</target>
